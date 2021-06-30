@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import MHeader from "src/components/m-header/m-header";
+import MHeader from 'src/components/m-header/m-header'
 export default {
-  components:{
+  components: {
     MHeader
   },
   name: 'App'
