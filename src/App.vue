@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <m-header></m-header>
-    hello world
-    <router-view/>
+    <tab />
+    <router-view />
   </div>
 </template>
 
 <script>
 import MHeader from 'src/components/m-header/m-header'
+import Tab from 'src/components/tab/tab'
 export default {
   components: {
-    MHeader
+    MHeader,
+    Tab
   },
   name: 'App'
 }
@@ -18,6 +20,4 @@ export default {
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
 @import "~common/stylus/variable"
-#app
-  color: #2c3e50
 </style>
